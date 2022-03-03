@@ -90,6 +90,9 @@ body {
 .article-image {
   padding-top: 60px;
 }
+.article-image img {
+  width: 100%;
+}
 .article-profile-text {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 15px;
