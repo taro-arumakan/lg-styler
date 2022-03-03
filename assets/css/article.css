@@ -138,6 +138,10 @@ body {
 .article-footer-back {
   padding-top: 110.19px;
 }
+.article-footer-more {
+  padding-top: 110.19px;
+  padding-bottom: 30.43px;
+}
 .article-footer-goto-top {
   padding-top: 56px;
 }
@@ -148,4 +152,8 @@ body {
   margin: auto;
   font-size: 13px;
   color: #dedbd1;
+}
+
+.top-articles-column {
+  flex: 50%;
 }

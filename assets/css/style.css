@@ -39,7 +39,7 @@ body {
   height: 26.18px;
 }
 
-.top-articles-container {
+#top-articles-container {
   width: 100%;
 }
 
@@ -90,7 +90,7 @@ body {
   width: 35%;
 }
 
-.top-page-footer {
+#top-page-footer {
   padding-top: 101px;
   padding-bottom: 80px;
   width: 274px;

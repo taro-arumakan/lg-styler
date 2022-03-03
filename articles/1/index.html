@@ -8,6 +8,7 @@
   <meta http-equiv="content-script-type" content="text/javascript; charset=UTF-8">
 
   <link href="http://fonts.cdnfonts.com/css/optima" rel="stylesheet">
+  <link href="../../assets/css/style.css" rel="stylesheet" type="text/css">
   <link href="../../assets/css/article.css" rel="stylesheet" type="text/css">
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -101,19 +102,27 @@
       <div class="article-footer-back article-footer-large-text">
         <a href="../../">BACK</a>
       </div>
-      <div class="article-footer-back article-footer-large-text">
+      <div class="article-footer-more article-footer-large-text">
         MORE
       </div>
-      <div class="article-footer-goto-top article-footer-large-text">
-        <a href="#top">TOP</a>
-      </div>
-      <div class="article-footer-copyright">
-        Copyright © 2009-2020 LG Electronics. All Rights Reserved This is LG Electronics’ official homepage. If you want
-        to connect to LG Corp., or other LG affiliates, please click
-      </div>
+      <include src="../../index.html" id="top-articles-container"></include>
+      <include src="../../index.html" id="top-page-footer"></include>
     </div>
 
   </div>
-
+  <script>
+    let includes = document.getElementsByTagName('include');
+    [...includes].forEach(include => {
+      load_file(include.attributes.src.value, function(text) {
+        let el = document.createElement('html');
+        el.innerHTML = text.replaceAll('assets/', '../../assets/');
+        include.insertAdjacentHTML('afterend',
+                                   el.querySelector(`#${include.attributes.id.value}`).outerHTML);
+      });
+    });
+    function load_file(filename, callback) {
+        fetch(filename).then(response => response.text()).then(text => callback(text));
+    }  
+  </script>
 </body>
 </html>
