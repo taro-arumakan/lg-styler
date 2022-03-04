@@ -38,6 +38,28 @@ body {
 .article-container {
   width: 100%;
 }
+
+@media (min-width: 768px) {
+  .article-title-container {
+    position: fixed;
+    width: 35%;
+    top: 50px;
+    z-index: -2;
+  }
+  .article-profile-container {
+    position: fixed;
+    width: 35%;
+    top: 150px;
+    z-index: -2;
+  }
+  .article-container {
+    width: 65%;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+
 .article-main-image img {
   width: 100%;
 }
@@ -118,6 +140,10 @@ body {
   height: 26.18px;
 }
 
+.article-footer {
+  display: block;
+  width: 100%;
+}
 .article-footer-start-styler {
   border: 1px solid;
   text-align: center;
