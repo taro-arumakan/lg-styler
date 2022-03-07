@@ -14,7 +14,6 @@
   position: relative;
   opacity: 0;
 }
-
 .reveal.active {
   opacity: 1;
 }
@@ -52,7 +51,7 @@
 }
 @keyframes fade-left {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(-20px);
     opacity: 0;
   }
   100% {
@@ -60,10 +59,9 @@
     opacity: 1;
   }
 }
-
 @keyframes fade-right {
   0% {
-    transform: translateX(100px);
+    transform: translateX(20px);
     opacity: 0;
   }
   100% {
