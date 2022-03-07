@@ -20,6 +20,8 @@
   <link href="../../assets/css/article.css" rel="stylesheet" type="text/css">
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
+  <script src="../../assets/js/animate.js" type="text/javascript" charset="UTF-8"></script>
+
 </head>
 
 <body>
@@ -46,7 +48,7 @@
         </div>
       </div>
       <div class="article-title-container">
-        <div class="article-title-image hide_past_more reveal fade-top">
+        <div class="article-title-image reveal fade-top hide_past_footer">
           <img src="assets/images/title.png" style="width: 70%">
         </div>
       </div>
@@ -104,7 +106,7 @@
           <img src="assets/images/7.png">
         </div>
       </div>
-      <div class="article-profile-container hide_past_more">
+      <div class="article-profile-container hide_past_footer reveal fade-bottom">
         <div class="article-profile-text">
           こばやし あらた●1974年広島県生まれ。<br>
           2000年、広島で建築設計事務所<br>
@@ -154,23 +156,8 @@
     }  
   </script>
   <script>
-    function hide_profile() {
-      var more_element = document.querySelector('.article-footer-more');
-      var hide_elements = document.querySelectorAll('.hide_past_more');
-      hide_elements.forEach(he => {
-        if (document.documentElement.scrollTop > more_element.offsetTop) {
-          he.style.display = 'none';
-        } else {
-          he.style.display = 'block';
-        }
-      })
-    }
-
     window.addEventListener("scroll", hide_profile);
-  
-  
   </script>
-  <script src="../../assets/js/animate.js" type="text/javascript" charset="UTF-8"></script>
 
 </body>
 

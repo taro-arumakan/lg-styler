@@ -10,8 +10,13 @@
   opacity: 0.7;
 }
 
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s ease-out;
+}
+
 .reveal {
-  position: relative;
   opacity: 0;
 }
 .reveal.active {
