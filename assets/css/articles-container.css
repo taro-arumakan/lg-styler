@@ -40,14 +40,28 @@
 
 .top-article-item-info-readmore {
   bottom: 0;
-  padding-bottom: 4%;
+  padding-bottom: 24px;
   width: 100%;
   position: absolute;
+  text-align: center;
+  color: white;
+
 }
 .top-article-item-info-readmore img {
   margin: auto;
-  width: 35%;
+  width: 78px;
 }
+.top-article-item-info-lg-styler-text {
+  font: normal normal normal 15px/18px Optima;
+  letter-spacing: 0.6px;
+  margin-bottom: 6px;
+}
+.top-article-item-info-readmore-text {
+   font: normal normal bold 13px/15px Optima;
+  text-decoration: underline;
+  letter-spacing: 0.52px;
+}
+
 
 @media (min-width: 768px) {
   .top-articles-container {
