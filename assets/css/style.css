@@ -42,12 +42,12 @@ body {
 
 @media (min-width: 768px) {
   .top-page-wrapper {
-    max-width: 1028px;
+    max-width: 1280px;
     padding-top: 60px;
     padding: 30px;
   }
   .top-bar {
-    max-width: 1028px;
+    max-width: 1280px;
     margin-top: -25px;
   }
 }
