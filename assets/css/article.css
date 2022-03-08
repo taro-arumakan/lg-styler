@@ -59,7 +59,6 @@ body {
   }
 }
 
-
 .article-main-image img {
   width: 100%;
 }
@@ -73,14 +72,14 @@ body {
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap");
 
 .article-lead-text {
   padding-top: 60px;
   width: 75%;
   margin: auto;
   font-size: 15px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 500;
   letter-spacing: -0.3px;
 }
@@ -88,14 +87,14 @@ body {
   padding-top: 90px;
   padding-left: 17px;
   font-size: 17px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 700;
 }
 .article-text-with-subtitle {
   padding-top: 15px;
   width: 90%;
   margin: auto;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.3px;
@@ -104,7 +103,7 @@ body {
   padding-top: 50px;
   width: 90%;
   margin: auto;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.3px;
@@ -116,7 +115,7 @@ body {
   width: 100%;
 }
 .article-profile-text {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.54px;
@@ -127,7 +126,7 @@ body {
 .interview-catal-design {
   padding-top: 50px;
   text-align: center;
-  font-size: 12px; 
+  font-size: 12px;
 }
 
 .footer-insta {
@@ -180,6 +179,60 @@ body {
   color: #dedbd1;
 }
 
-.top-articles-column {
-  flex: 50%;
+@media (max-width: 767px) {
+  .top-articles-column {
+    flex: 50%;
+  }
+
+  .top-article-item-title-1 {
+    margin: auto;
+    margin-top: 89.5px;
+    width: 116.5px;
+  }
+  .top-article-item-title-2 {
+    margin: auto;
+    margin-top: 227.5px;
+    width: 90.5px;
+  }
+  .top-article-item-title-3 {
+    margin: auto;
+    margin-top: 219.5px;
+    width: 105px;
+  }
+  .top-article-item-title-4 {
+    margin: auto;
+    margin-top: 35px;
+    width: 73px;
+  }
+
+  .top-article-item-title-5 {
+    margin: auto;
+    margin-top: 139.5px;
+    width: 124px;
+  }
+  .top-article-item-title-6 {
+    margin: auto;
+    margin-top: 47px;
+    width: 119px;
+  }
+  .top-article-item-title-7 {
+    margin: auto;
+    margin-top: 202px;
+    width: 101.115px;
+  }
+  .top-article-item-title-8 {
+    margin: auto;
+    margin-top: 114.5px;
+    width: 71px;
+  }
+  .top-article-item-title-9 {
+    margin: auto;
+    margin-top: 205.5px;
+    width: 144px;
+  }
+
+  .top-article-item-info-readmore img {
+    margin: auto;
+    width: 39px;
+  }
 }
