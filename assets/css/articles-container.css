@@ -31,54 +31,61 @@
   width: 100%;
   height: 100%;
   bottom: 0;
-  padding-bottom: 8.533333333333333%;
-  margin: auto;
 }
 .top-article-item-title-1 {
   margin: auto;
-  margin-top: 179px;
-  width: 233px;
+  position: relative;
+  top: 25.79%;
+  width: 54.61%;
 }
 .top-article-item-title-2 {
   margin: auto;
-  margin-top: 455px;
-  width: 181px;
+  position: relative;
+  top: 65.56%;
+  width: 42.42%;
 }
 .top-article-item-title-3 {
-  margin-left: 88px;
-  margin-top: 439px;
-  width: 210px;
+  margin: auto;
+  position: relative;
+  top: 63.25%;
+  width: 49.22%;
 }
 .top-article-item-title-4 {
   margin: auto;
-  margin-top: 70px;
-  width: 146px;
+  position: relative;
+  top: 10.09%;
+  width: 34.22%;
 }
 
 .top-article-item-title-5 {
-  margin-left: 70px;
-  margin-top: 279px;
-  width: 248px;
+  margin: auto;
+  position: relative;
+  top: 40.2%;
+  width: 58.13%;
 }
 .top-article-item-title-6 {
   margin: auto;
-  margin-top: 94px;
-  width: 238px;
+  position: relative;
+  top: 13.54%;
+  width: 55.78%;
 }
 .top-article-item-title-7 {
   margin: auto;
-  margin-top: 404px;
-  width: 202.23px;
+  position: relative;
+  top: 58.21%;
+  width: 47.4%;
 }
 .top-article-item-title-8 {
   margin: auto;
-  margin-top: 229px;
-  width: 142px;
+  position: relative;
+  top: 33%;
+  width: 33.28%;
 }
 .top-article-item-title-9 {
   margin: auto;
-  margin-top: 411px;
-  width: 288px;
+  position: relative;
+  top: 59.22%;
+  width: 67.5%;
 }
 
 .top-article-item-title img {
@@ -92,11 +99,10 @@
   position: absolute;
   text-align: center;
   color: white;
-
 }
 .top-article-item-info-readmore img {
   margin: auto;
-  width: 78px;
+  width: 18.23%;
 }
 .top-article-item-info-lg-styler-text {
   font: normal normal normal 15px/18px Optima;
@@ -104,11 +110,10 @@
   margin-bottom: 6px;
 }
 .top-article-item-info-readmore-text {
-   font: normal normal bold 13px/15px Optima;
+  font: normal normal bold 13px/15px Optima;
   text-decoration: underline;
   letter-spacing: 0.52px;
 }
-
 
 @media (min-width: 768px) {
   .top-articles-container {
