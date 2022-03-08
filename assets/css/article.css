@@ -7,7 +7,6 @@ body {
   padding: 0;
   font-family: "Optima", sans-serif;
 }
-
 .top-bar {
   position: relative;
   width: 100%;
@@ -177,6 +176,10 @@ body {
   margin: auto;
   font-size: 13px;
   color: #dedbd1;
+}
+
+.top-page-footer-copyright {
+  color: black;
 }
 
 @media (max-width: 767px) {
