@@ -23,7 +23,7 @@
   opacity: 1;
 }
 .active.fade-top {
-  animation: fade-top 1s ease-in;
+  animation: fade-top 1.5s ease-out;
 }
 .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
@@ -36,7 +36,7 @@
 }
 @keyframes fade-top {
   0% {
-    transform: translateY(-15px);
+    transform: translateY(-25px);
     opacity: 0;
   }
   100% {
@@ -46,11 +46,11 @@
 }
 @keyframes fade-bottom {
   0% {
-    transform: translateY(20px);
+    transform: translateY(25px);
     opacity: 0;
   }
   100% {
-    transform: translateY(0) opacity 1s;
+    transform: translateY(0) opacity 2s;
     opacity: 1;
   }
 }

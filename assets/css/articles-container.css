@@ -29,11 +29,58 @@
 .top-article-item-info {
   position: absolute;
   width: 100%;
-  height: 70%;
+  height: 100%;
   bottom: 0;
   padding-bottom: 8.533333333333333%;
   margin: auto;
 }
+.top-article-item-title-1 {
+  margin: auto;
+  margin-top: 179px;
+  width: 233px;
+}
+.top-article-item-title-2 {
+  margin: auto;
+  margin-top: 455px;
+  width: 181px;
+}
+.top-article-item-title-3 {
+  margin-left: 88px;
+  margin-top: 439px;
+  width: 210px;
+}
+.top-article-item-title-4 {
+  margin: auto;
+  margin-top: 70px;
+  width: 146px;
+}
+
+.top-article-item-title-5 {
+  margin-left: 70px;
+  margin-top: 279px;
+  width: 248px;
+}
+.top-article-item-title-6 {
+  margin: auto;
+  margin-top: 94px;
+  width: 238px;
+}
+.top-article-item-title-7 {
+  margin: auto;
+  margin-top: 404px;
+  width: 202.23px;
+}
+.top-article-item-title-8 {
+  margin: auto;
+  margin-top: 229px;
+  width: 142px;
+}
+.top-article-item-title-9 {
+  margin: auto;
+  margin-top: 411px;
+  width: 288px;
+}
+
 .top-article-item-title img {
   margin: auto;
 }
