@@ -1,18 +1,23 @@
-function reveal() {
+function reveal_init() {
+  reveal(0);
+}
+function reveal_scroll() {
+  reveal(80);
+}
+function reveal(offset) {
   var windowHeight = window.innerHeight;
-  var elementVisible = 50;
   var reveals = document.querySelectorAll("[class*=reveal]");
   reveals.forEach(reveal => {
     var elementTop = reveal.getBoundingClientRect().top;
-    if (elementTop < windowHeight - elementVisible) {
+    if (elementTop < windowHeight - offset) {
       if (![...reveal.classList].includes('hidden')) {
         reveal.classList.add('active');
       }
     }
   });
 }
-window.addEventListener("scroll", reveal);
-window.onload = reveal;
+window.addEventListener("scroll", reveal_scroll);
+window.onload = reveal_init;
 
 function hide_profile() {
   var more_element = document.querySelector('.article-footer');
