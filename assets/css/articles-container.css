@@ -1,5 +1,6 @@
 #top-articles-container {
   width: 100%;
+  overflow-x: hidden;
 }
 
 .top-articles-row {

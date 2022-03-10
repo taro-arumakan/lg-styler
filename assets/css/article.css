@@ -10,6 +10,7 @@ body {
 .article-page-wrapper {
   max-width: 1280px;
   margin: auto;
+  overflow-x: hidden;
 }
 .top-bar {
   position: relative;

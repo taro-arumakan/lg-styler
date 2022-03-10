@@ -1,7 +1,7 @@
 function reveal() {
   var windowHeight = window.innerHeight;
-  var elementVisible = 150;
-  var reveals = document.querySelectorAll(".reveal");
+  var elementVisible = 50;
+  var reveals = document.querySelectorAll("[class*=reveal]");
   reveals.forEach(reveal => {
     var elementTop = reveal.getBoundingClientRect().top;
     if (elementTop < windowHeight - elementVisible) {
