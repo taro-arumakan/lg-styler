@@ -72,8 +72,8 @@
 .reveal_tran_rl.active,
 .reveal_tran_lr.active {
   transition:
-    transform 1s ease-in 100ms,
-    opacity 1s ease-in 100ms;
+    transform 750ms ease-in-out 100ms,
+    opacity 750ms ease-in-out 100ms;
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
