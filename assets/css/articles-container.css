@@ -33,6 +33,12 @@
   height: 100%;
   bottom: 0;
 }
+.top-article-item-title-peek-a-boo {
+  margin: auto;
+  position: relative;
+  top: 13.33%;
+
+}
 .top-article-item-title-1 {
   margin: auto;
   position: relative;
