@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap");
+
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  height: 91.97px;
+}
+.article-image-2 {
+  margin-top: 95px;
+}
+.article-image-6 {
+  margin-top: 90px;
+}
+
+.article-small-disclaimer {
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: -0.2px;
+  width: 90%;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+.article-profile-url {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  width: 90%;
+  margin-top: 8.98px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+.article-profile-disclaimer {
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: -0.2px;
+  width: 90%;
+  margin-top: 20.19px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+.article-image-11 {
+  margin-top: 15px;
+  width: 89.87%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .article-profile-container {
+    position: fixed;
+    width: 35%;
+    max-width: 448px;
+    top: 200px;
+    z-index: -2;
+  }
+}
