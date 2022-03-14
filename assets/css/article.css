@@ -2,10 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap");
 body {
   margin: 0;
   padding: 0;
   font-family: "Optima", sans-serif;
+}
+img {
+  display: block;
+  margin: auto;
 }
 .article-page-wrapper {
   max-width: 1280px;
@@ -41,6 +46,7 @@ body {
 }
 .article-container {
   width: 100%;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -72,13 +78,12 @@ body {
   font-size: 12px;
   padding-top: 20px;
   text-align: center;
+  font-family: "Optima", sans-serif;
 }
 .article-title-image {
   padding-top: 40px;
   text-align: center;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap");
 
 .article-lead-text-container {
   margin-top: 60px;
@@ -87,35 +92,34 @@ body {
   width: 75%;
   margin: auto;
   font-size: 15px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: -0.3px;
+  line-height: 28px;
 }
 .article-subtitle-text {
   padding-top: 90px;
   padding-left: 17px;
   font-size: 17px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
 }
 .article-text-with-subtitle {
   padding-top: 15px;
   width: 90%;
   margin: auto;
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.3px;
 }
 .article-text {
-  margin-top: 46px;
+  margin-top: 50px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.3px;
+  line-height: 26px;
 }
 .article-image {
   margin-top: 50px;
@@ -124,7 +128,6 @@ body {
   width: 100%;
 }
 .article-profile-text {
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.54px;
@@ -136,6 +139,8 @@ body {
   padding-top: 50px;
   text-align: center;
   font-size: 12px;
+  font-family: "Optima", sans-serif;
+  letter-spacing: 0.48pt;
 }
 
 .footer-insta {
@@ -146,6 +151,7 @@ body {
 .footer-insta img {
   width: 26.18px;
   height: 26.18px;
+  margin: auto;
 }
 
 .article-footer {
@@ -159,11 +165,13 @@ body {
   padding: 10px;
   width: 274px;
   margin-top: 50px;
+  font-family: "Optima", sans-serif;
 }
 .article-footer-large-text {
   text-align: center;
   margin: auto;
   font-size: 47px;
+  font-family: "Optima", sans-serif;
 }
 .article-footer-large-text a {
   color: inherit;
