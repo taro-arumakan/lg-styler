@@ -3,7 +3,7 @@ body {
 }
 
 .article-title-image img {
-  width: 55.48%;
+  width: 80.44%;
 }
 .article-image-2 {
   margin-top: 90px;
@@ -56,9 +56,6 @@ body {
 }
 
 @media (min-width: 768px) {
- .article-title-image img {
-  width: 75%;
-}
  .article-profile-container {
     position: fixed;
     width: 35%;
