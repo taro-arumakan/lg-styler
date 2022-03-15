@@ -1,0 +1,53 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-text {
+  margin-top: 24.5px;
+}
+.article-text-small {
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: -0.26px;
+}
+.article-lead-image {
+  margin-top: 83.5px;
+}
+
+.article-subtitle-text {
+  margin-top: 47px;
+  width: 90%;
+  letter-spacing: -0.34px;
+  line-height: 23px;
+}
+.article-subtitle-text-narrow-top {
+  margin-top: 27px;
+}
+.article-title-image img {
+  width: 80.44%;
+}
+.article-image-narrow-top {
+  margin-top: 22.5px
+}
+.article-image-narrower-top {
+  margin-top: 20px;
+}
+.article-top-24_5 {
+  margin-top: 24.5px;
+}
+.article-top-34_5 {
+  margin-top: 34.5px;
+}
+
+.article-profile-url {
+  margin-top: 34.36px;
+}
+@media (min-width: 768px) {
+ .article-profile-container {
+    position: fixed;
+    width: 35%;
+    max-width: 448px;
+    top: 200px;
+    z-index: -2;
+  }
+}
