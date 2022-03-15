@@ -159,15 +159,6 @@ img {
   display: block;
   width: 100%;
 }
-.article-footer-start-styler {
-  border: 1px solid;
-  text-align: center;
-  margin: auto;
-  padding: 10px;
-  width: 274px;
-  margin-top: 50px;
-  font-family: "Optima", sans-serif;
-}
 .article-footer-large-text {
   text-align: center;
   margin: auto;
