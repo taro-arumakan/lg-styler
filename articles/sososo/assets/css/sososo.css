@@ -50,4 +50,7 @@ body {
     top: 200px;
     z-index: -2;
   }
+  .article-image-hide-pc {
+    display: none;
+  }
 }
