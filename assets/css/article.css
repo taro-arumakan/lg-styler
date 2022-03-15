@@ -164,18 +164,18 @@ img {
   margin: auto;
   font-size: 47px;
   font-family: "Optima", sans-serif;
-  line-height: 100%;
+  line-height: 33.51px;
 }
 .article-footer-large-text a {
   color: inherit;
   text-decoration: none;
 }
 .article-footer-back {
-  padding-top: 110.19px;
+  margin-top: 49.87px
 }
 .article-footer-more {
-  padding-top: 110.19px;
-  padding-bottom: 30.43px;
+  margin-top: 110.19px;
+  margin-bottom: 30.43px;
 }
 .article-footer-goto-top {
   padding-top: 56px;
