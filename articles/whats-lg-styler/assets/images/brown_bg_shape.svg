@@ -1,3 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="312" height="880" viewBox="0 0 312 880">
-  <path id="合体_1" data-name="合体 1" d="M-3536.4,840.6H-3645a21,21,0,0,1-21-21V24a21,21,0,0,1,21-21h270a21,21,0,0,1,21,21V819.6a21,21,0,0,1-21,21h-109.6l-25.9,42.4Z" transform="translate(3666 -3)" fill="#c1bcab"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 312 890" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Pixels"/>
+</metadata>
+<defs/>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M129.6 847.6L21 847.6C9.40202 847.6 1.75125e-06 838.198 0 826.6L0 31C-2.11224e-06 19.402 9.40202 10 21 10L291 10C302.598 10 312 19.402 312 31L312 826.6C312 838.198 302.598 847.6 291 847.6L181.4 847.6L155.5 890L129.6 847.6Z" fill="#c1bcab" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
 </svg>

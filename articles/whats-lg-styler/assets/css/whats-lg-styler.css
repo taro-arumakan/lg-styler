@@ -18,11 +18,14 @@ body {
 .white-background {
   background-image: url("../images/white_bg_shape.svg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
 }
 .brown-background {
   background-image: url("../images/brown_bg_shape.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: auto 100%;
 }
 .article-text {
   margin-top: 24.5px;
