@@ -1,0 +1,91 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image {
+  padding-top: 36px;
+}
+.article-title-image img {
+  width: 100%;
+}
+
+.article-lead-image {
+  margin-top: 53.47px;
+}
+
+.article-text-small {
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: -0.26px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20.97px;
+}
+.article-text {
+  margin-top: 26.53px;
+}
+.article-text-with-subtitle {
+    padding-top: 0px;
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    line-height: 26px;
+}
+
+.article-image-3 {
+  margin-top: 35.47px;
+}
+.article-image-4 {
+  margin-top: 64.43px;
+}
+.article-image-5 {
+  margin-top: 5.5px;
+}
+.article-image-6 {
+  margin-top: 57.5px;
+}
+.article-image-7 {
+  margin-top: 19.77px;
+}
+.article-image-8 {
+  margin-top: 78.28px;
+}
+.article-image-9 {
+  margin-top: 23.49px;
+}
+.article-image-10 {
+  margin-top: 62px;
+}
+.article-image-11 {
+  margin-top: 8.5px;
+}
+.article-image-12 {
+  margin-top: 92.5px;
+}
+.article-image-13 {
+  margin-top: 42.5px;
+}
+.article-image-14 {
+  margin-top: 48.95px;
+}
+
+.article-profile-url {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.54px;
+  line-height: 28px;
+  margin-top: 0.6px;
+}
+.article-profile-text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+  line-height: 28px;
+  width: 75%;
+  margin: auto;
+  margin-top: 18.85px;
+}
