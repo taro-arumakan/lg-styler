@@ -205,7 +205,6 @@ img {
     position: fixed;
     width: 40%;
     max-width: 485px;
-    z-index: -2;
     text-align: center;
   }
   .article-container {
