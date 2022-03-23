@@ -1,0 +1,68 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image {
+  padding-top: 36px;
+}
+.article-title-image img {
+  width: 100%;
+}
+
+.article-lead-image {
+  margin-top: 108.97px;
+}
+
+.article-text {
+  margin-top: 23.56px;
+}
+
+.article-image-3 {
+  margin-top: 80.97px;
+}
+.article-image-4 {
+  margin-top: 80.25px;
+}
+.article-image-5 {
+  margin-top: 79.94px;
+}
+.article-image-6 {
+  margin-top: 18.47px;
+}
+.article-image-7 {
+  margin-top: 80px;
+}
+.article-image-8 {
+  margin-top: 73.69px;
+}
+.article-image-9 {
+  margin-top: 78.68px;
+}
+.article-image-10 {
+  margin-top: 23px;
+}
+.article-image-11 {
+  margin-top: 73.12px;
+}
+.article-image-12 {
+  margin-top: 23.3px;
+}
+
+.article-profile-url {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.54px;
+  line-height: 28px;
+  margin-top: 0.6px;
+}
+.article-profile-text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.54px;
+  line-height: 28px;
+  width: 75%;
+  margin: auto;
+  margin-top: 18.85px;
+}
