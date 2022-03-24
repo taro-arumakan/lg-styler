@@ -51,4 +51,10 @@ body {
     margin-top: -25px;
     width: 92%;
   }
+  .top-bar-styler-logo img {
+    width: 103px;
+  }
+  #top-articles-container {
+    margin-top: 31px;
+  }
 }

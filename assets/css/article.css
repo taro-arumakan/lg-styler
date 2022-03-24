@@ -218,5 +218,11 @@ img {
     flex-direction: column;
     flex: 50%;
   }
+  .top-bar-styler-logo img {
+    width: 103px;
+  }
+  .article-container-wrapper {
+    margin-top: 25px;
+  }
 }
 
