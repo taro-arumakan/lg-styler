@@ -35,6 +35,11 @@ body {
   line-height: 28px;
 }
 
+@media (max-width: 767px) {
+  .article-container-wrapper {
+    margin-top: 72px;
+  }
+}
 @media (min-width: 768px) {
   .article-left-container-pc {
     width: 100%;
