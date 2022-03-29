@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.lolipop.jp
-        username: main.jp-catal@ftp.lolipop.jp
+        username: main.jp-catal
         password: ${{ secrets.ftp_password }}
         server-dir: lg/
         dry-run: true
