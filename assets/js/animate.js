@@ -23,7 +23,7 @@ function hide_profile() {
   var more_element = document.querySelector('.article-footer');
   var hide_elements = document.querySelectorAll('.hide_past_footer');
   hide_elements.forEach(he => {
-    if (document.documentElement.scrollTop > more_element.offsetTop - window.screen.height / 2){
+    if (document.documentElement.scrollTop > more_element.offsetTop - window.screen.height / 2) {
       if (![...he.classList].includes('hidden')) {
         he.classList.remove('active');
         he.classList.add('hidden');
@@ -34,3 +34,21 @@ function hide_profile() {
     }
   })
 }
+
+function load_articles_container() {
+  let includes = document.getElementsByTagName('include');
+  [...includes].forEach(include => {
+    load_file(include.attributes.src.value, function (text) {
+      let el = document.createElement('html');
+      text = text.replaceAll('src="assets/', 'src="../../assets/');
+      text = text.replaceAll('src="articles/', 'src="../../articles/');
+      el.innerHTML = text.replaceAll('href="articles/', 'href="../../articles/');
+      include.insertAdjacentHTML('afterend',
+        el.querySelector(`#${include.attributes.id.value}`).outerHTML);
+    });
+  });
+}
+function load_file(filename, callback) {
+  fetch(filename).then(response => response.text()).then(text => callback(text));
+}
+

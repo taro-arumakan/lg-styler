@@ -73,16 +73,16 @@
 
     <div class="article-container-wrapper">
       <div class="flex_column_left_space">
-        <a href="https://www.lg.com/jp/lg-styler" style="z-index: 9999;" target="_blank">
-          <div class="article-left-container-pc">
-            <div class="article-image reveal_tran_tb hide_past_footer">
-              <img src="assets/images/19.png">
-            </div>
-            <div class="article-image reveal_tran_bt hide_past_footer">
-              <img src="assets/images/20.png">
-            </div>
+        <div class="article-left-container-pc">
+          <div class="article-image reveal_tran_tb hide_past_footer">
+            <img src="assets/images/19.png">
           </div>
-        </a>
+          <div class="article-image reveal_tran_bt hide_past_footer">
+            <a href="https://www.lg.com/jp/lg-styler" target="_blank">
+              <img src="assets/images/20.png">
+            </a>
+          </div>
+        </div>
       </div>
       <div class="article-container">
         <div class="article-main-image reveal_tran_bt">
@@ -188,20 +188,7 @@
 
   </div>
   <script>
-    let includes = document.getElementsByTagName('include');
-    [...includes].forEach(include => {
-      load_file(include.attributes.src.value, function (text) {
-        let el = document.createElement('html');
-        text = text.replaceAll('src="assets/', 'src="../../assets/');
-        text = text.replaceAll('src="articles/', 'src="../../articles/');
-        el.innerHTML = text.replaceAll('href="articles/', 'href="../../articles/');
-        include.insertAdjacentHTML('afterend',
-          el.querySelector(`#${include.attributes.id.value}`).outerHTML);
-      });
-    });
-    function load_file(filename, callback) {
-      fetch(filename).then(response => response.text()).then(text => callback(text));
-    }  
+    load_articles_container();
   </script>
   <script>
     window.addEventListener("scroll", hide_profile);

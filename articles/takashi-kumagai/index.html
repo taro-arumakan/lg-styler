@@ -217,20 +217,7 @@
 
   </div>
   <script>
-    let includes = document.getElementsByTagName('include');
-    [...includes].forEach(include => {
-      load_file(include.attributes.src.value, function (text) {
-        let el = document.createElement('html');
-        text = text.replaceAll('src="assets/', 'src="../../assets/');
-        text = text.replaceAll('src="articles/', 'src="../../articles/');
-        el.innerHTML = text.replaceAll('href="articles/', 'href="../../articles/');
-        include.insertAdjacentHTML('afterend',
-          el.querySelector(`#${include.attributes.id.value}`).outerHTML);
-      });
-    });
-    function load_file(filename, callback) {
-      fetch(filename).then(response => response.text()).then(text => callback(text));
-    }  
+    load_articles_container();
   </script>
   <script>
     window.addEventListener("scroll", hide_profile);
