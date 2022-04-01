@@ -105,6 +105,7 @@ img {
 }
 .article-image {
   margin-top: 50px;
+  text-align: center;
 }
 .article-image img {
   width: 100%;
