@@ -16,8 +16,8 @@
   transition: transform 1s, visibility 0s 1s, opacity 1s ease-out;
 }
 .hidden a {
-   pointer-events: none;
-   cursor: default;  
+  pointer-events: none;
+  cursor: default;
 }
 .reveal_tran_tb {
   opacity: 0;
@@ -40,9 +40,7 @@
 .reveal_tran_bt.active,
 .reveal_tran_rl.active,
 .reveal_tran_lr.active {
-  transition:
-    transform 750ms ease-in-out 100ms,
-    opacity 750ms ease-in-out 100ms;
+  transition: transform 750ms ease-in-out 100ms, opacity 750ms ease-in-out 100ms;
   opacity: 1;
   transform: translate(0, 0);
 }
