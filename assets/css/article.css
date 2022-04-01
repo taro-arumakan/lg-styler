@@ -120,6 +120,9 @@ img {
   width: 32.42px;
   height: 32.42px;
 }
+.article-image-insta a  {
+  display: inline-block;
+}
 .footer-insta {
   padding-top: 50px;
   margin: auto;
@@ -129,6 +132,9 @@ img {
   width: 26.18px;
   height: 26.18px;
   margin: auto;
+}
+.footer-insta a {
+  display: inline-block;
 }
 
 .article-footer {
