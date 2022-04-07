@@ -66,3 +66,13 @@ body {
   margin: auto;
   margin-top: 18.85px;
 }
+.video-container {
+    position: relative;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;  
+}
+video {
+    max-width: 100%;
+}
