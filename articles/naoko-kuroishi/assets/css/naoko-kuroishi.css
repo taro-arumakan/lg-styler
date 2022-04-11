@@ -1,0 +1,41 @@
+body {
+  background-color: #DEDBD1;
+}
+.article-lead-image {
+  margin-top: 83.5px;
+}
+
+.article-subtitle-text {
+  margin-top: 37px;
+  letter-spacing: -0.34px;
+  line-height: 23px;
+}
+.article-text-with-subtitle {
+  padding-top: 11.5px;
+}
+.article-image {
+  margin-top: 63.5px;
+}
+.article-title-image img {
+  width: 53.33%;
+}
+
+.article-profile-text {
+  margin-top: 43.5px;
+}
+.interview-catal-design {
+  line-height: 43px;
+  padding-top: 13.18px;
+}
+@media (min-width: 768px) {
+ .article-profile-container {
+    position: fixed;
+    width: 35%;
+    max-width: 448px;
+    top: 200px;
+    z-index: -2;
+  }
+  .article-image-hide-pc {
+    display: none;
+  }
+}
