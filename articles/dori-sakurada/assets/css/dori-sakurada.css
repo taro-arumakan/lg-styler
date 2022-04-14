@@ -1,0 +1,39 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 38.93%;
+}
+
+.article-text {
+  margin-top: 33.5px;
+}
+.article-text-small {
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: -0.26px;
+  margin-top: 18.5px;
+}
+.article-lead-image {
+  margin-top: 83.5px;
+}
+.article-subtitle-text {
+  margin-top: 32px;
+  width: 90%;
+  letter-spacing: -0.34px;
+  line-height: 23px;
+}
+.article-text-with-subtitle {
+  padding-top: 10.5px;
+  line-height: 28px;
+}
+.article-image-narrow-top {
+  margin-top: 25px;
+}
+.article-image-narrower-top {
+  margin-top: 15px;
+}
+.article-image-after-small-text {
+  margin-top: 85px;
+}
