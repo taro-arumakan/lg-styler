@@ -56,13 +56,3 @@ body {
   line-height: 28px;
   margin-top: 0.6px;
 }
-.video-container {
-    position: relative;
-    display: flex;
-    margin-top: 80px;
-    justify-content: center;
-    align-items: center;  
-}
-video {
-    max-width: 100%;
-}

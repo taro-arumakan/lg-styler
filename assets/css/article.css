@@ -200,6 +200,22 @@ img {
 .top-page-footer-copyright {
   color: black;
 }
+.video-container {
+  position: relative;
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  /* keep aspect ratio 16:9 combined with the iframe style below */  
+  padding-top: 56.25%;
+}
+iframe {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
 
 @media (max-width: 767px) {
   .top-articles-column {
