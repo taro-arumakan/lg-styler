@@ -1,6 +1,6 @@
 function reveal_init() {
   reveal(0);
-  split_text_to_characters();
+  text_split_nodes_to_delayed_spans();
 }
 function reveal_scroll() {
   reveal(80);
@@ -52,7 +52,7 @@ function load_file(filename, callback) {
   fetch(filename).then(response => response.text()).then(text => callback(text));
 }
 
-function split_to_spans(n) {
+function split_node_to_delayed_spans(n) {
     chars = n.textContent.replace(/\s+/g, "_").split("");
     spans = chars.map(s => "_" === s ? " " : `<span>${s}</span>`);
     spans = spans.map((s, i) => add_delay_style(s, i));
@@ -66,10 +66,10 @@ function add_delay_style(span, sequence) {
   }
   return span;
 }
-function split_text_to_characters() {
+function text_split_nodes_to_delayed_spans() {
   let to_be_split = document.querySelectorAll('.text-split');
   [...to_be_split].forEach(ts_node => {
-    spanned = split_to_spans(ts_node);
+    spanned = split_node_to_delayed_spans(ts_node);
     ts_node.innerHTML = "".concat(...spanned);
   });
 }
