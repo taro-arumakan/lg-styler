@@ -6,7 +6,7 @@ function reveal_scroll() {
   reveal(80);
 }
 function reveal(offset) {
-  var target_selector = offset === 0 ? "[class*=reveal_tran]:not(.reveal_fadein_letter)" : "[class*=reveal]";
+  var target_selector = offset === 0 ? "[class*=reveal]:not(.reveal_fadein_letter)" : "[class*=reveal]";
   var windowHeight = window.innerHeight;
   var reveals = document.querySelectorAll(target_selector);
   reveals.forEach(reveal => {
@@ -67,7 +67,7 @@ function add_delay_style(span, sequence) {
   return span;
 }
 function text_split_nodes_to_delayed_spans() {
-  let to_be_split = document.querySelectorAll('.text-split');
+  let to_be_split = document.querySelectorAll('.reveal_fadein_letter');
   [...to_be_split].forEach(ts_node => {
     spanned = split_node_to_delayed_spans(ts_node);
     ts_node.innerHTML = "".concat(...spanned);
