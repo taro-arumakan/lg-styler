@@ -1,14 +1,13 @@
 function reveal_init() {
-  reveal(0);
   text_split_nodes_to_delayed_spans();
+  reveal(0);
 }
 function reveal_scroll() {
   reveal(80);
 }
 function reveal(offset) {
-  var target_selector = offset === 0 ? "[class*=reveal]:not(.reveal_fadein_letter)" : "[class*=reveal]";
   var windowHeight = window.innerHeight;
-  var reveals = document.querySelectorAll(target_selector);
+  var reveals = document.querySelectorAll("[class*=reveal]");
   reveals.forEach(reveal => {
     var elementTop = reveal.getBoundingClientRect().top;
     if (elementTop < windowHeight - offset) {
@@ -52,15 +51,15 @@ function load_file(filename, callback) {
   fetch(filename).then(response => response.text()).then(text => callback(text));
 }
 
-function split_node_to_delayed_spans(n) {
+function split_node_to_delayed_spans(n, interval) {
     chars = n.textContent.replace(/\s+/g, "_").split("");
     spans = chars.map(s => "_" === s ? " " : `<span>${s}</span>`);
-    spans = spans.map((s, i) => add_delay_style(s, i));
+    spans = spans.map((s, i) => add_delay_style(s, i, interval));
     return spans;
 }
-function add_delay_style(span, sequence) {
+function add_delay_style(span, sequence, interval) {
   if (span.match(/<span>/g)) {
-    var ds = sequence * 3.2;
+    var ds = sequence * interval;
     o = 0 === ds ? "" : ` style="transition-delay: ${ds}ms;"`;
     span = span.replace(/<span>/, `<span${o}>`);
   }
@@ -69,7 +68,8 @@ function add_delay_style(span, sequence) {
 function text_split_nodes_to_delayed_spans() {
   let to_be_split = document.querySelectorAll('.reveal_fadein_letter');
   [...to_be_split].forEach(ts_node => {
-    spanned = split_node_to_delayed_spans(ts_node);
+    interval = 'delay_interval_ms' in ts_node.attributes ? parseFloat(ts_node.attributes.delay_interval_ms.value) : 30;
+    spanned = split_node_to_delayed_spans(ts_node, interval);
     ts_node.innerHTML = "".concat(...spanned);
   });
 }
