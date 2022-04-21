@@ -1,0 +1,40 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 66.67%;
+}
+
+.article-lead-text-container {
+  margin-top: 61.53px;
+}
+
+.article-text {
+  margin-top: 13.5px;
+}
+
+.article-text-small {
+  margin-top: 19.19px;
+}
+
+.article-image {
+  margin-top: 23.93px;
+}
+
+.article-image-section-lead {
+  margin-top: 83.5px;
+}
+.article-image-section-second {
+  margin-top: 17.22px;
+}
+.article-image-section-third {
+  margin-top: 9.87px;
+}
+.article-image-section-last {
+  margin-top: 13.45px;
+}
+
+.article-image-styler-section {
+  margin-top: 19.84px;
+}
