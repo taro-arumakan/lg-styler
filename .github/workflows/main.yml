@@ -1,7 +1,5 @@
 on:
-  push:
-    branches:
-      - main
+  push
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -17,5 +15,5 @@ jobs:
         server: ftp.lolipop.jp
         username: main.jp-catal
         password: ${{ secrets.ftp_password }}
-        server-dir: web/lg/
+        server-dir: web/lg_dev/
         dry-run: false
