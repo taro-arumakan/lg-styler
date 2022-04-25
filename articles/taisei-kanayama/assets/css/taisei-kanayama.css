@@ -1,0 +1,33 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 66.67%;
+}
+
+.article-lead-text-container {
+  margin-top: 61.53px;
+}
+
+.article-text {
+  margin-top: 13.5px;
+}
+
+.article-image {
+  margin-top: 23.93px;
+}
+
+.article-image-section-lead {
+  margin-top: 100.11px;
+}
+.article-image-section-second {
+  margin-top: 14.5px;
+}
+
+.article-subtitle-text {
+  margin-top: 17px;
+}
+.article-text-with-subtitle {
+  padding-top: 11.5px;
+}
