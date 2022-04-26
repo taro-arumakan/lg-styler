@@ -14,5 +14,5 @@ jobs:
         server: ftp.lolipop.jp
         username: main.jp-catal
         password: ${{ secrets.ftp_password }}
-        server-dir: web/lg_20220427_taiyu_nakamuro/
+        server-dir: web/lg_20220427_taisuke_nakamuro/
         dry-run: false
