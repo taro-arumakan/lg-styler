@@ -2,12 +2,15 @@ body {
   background-color: #DEDBD1;
 }
 
+.article-title-image {
+  padding-top: 46.86px;
+}
 .article-title-image img {
-  width: 66.67%;
+  width: 70.536%;
 }
 
 .article-lead-text-container {
-  margin-top: 61.53px;
+  margin-top: 67.93px;
 }
 
 .article-text {
