@@ -52,8 +52,8 @@ function load_file(filename, callback) {
 }
 
 function split_node_to_delayed_spans(n, interval) {
-    chars = n.textContent.replace(/\s+/g, " ").split("");
-    spans = chars.map(s => " " === s ? " " : `<span>${s}</span>`);
+    chars = n.textContent.replace(/ +/g, " ").trim().split("");
+    spans = chars.map(s => `<span>${s === '\n' ? '<br>': s}</span>`);
     spans = spans.map((s, i) => add_delay_style(s, i, interval));
     return spans;
 }
