@@ -238,6 +238,12 @@ iframe {
 }
 
 @media (max-width: 767px) {
+  .top-articles-column-one {
+    flex: 50%;
+  }
+  .top-articles-column-two {
+    flex: 50%;
+  }
   .top-articles-column {
     flex: 50%;
   }
