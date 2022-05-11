@@ -238,13 +238,7 @@ iframe {
 }
 
 @media (max-width: 767px) {
-  .top-articles-column-one {
-    flex: 50%;
-  }
-  .top-articles-column-two {
-    flex: 50%;
-  }
-  .top-articles-column {
+  .top-articles-column-full {
     flex: 50%;
   }
   .article-left-container-pc {

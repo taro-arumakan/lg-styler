@@ -9,13 +9,7 @@
   flex-wrap: wrap;
   width: 100%;
 }
-.top-articles-column-one {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 100%;
-}
-.top-articles-column-two {
+.top-articles-column-full {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -140,10 +134,7 @@
   .top-articles-container {
     margin-top: 50px;
   }
-  .top-articles-column-one {
-    flex: 33%;
-  }
-  .top-articles-column-two {
+  .top-articles-column-full {
     flex: 33%;
   }
   .top-articles-column {
