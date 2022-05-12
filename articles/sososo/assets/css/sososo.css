@@ -2,6 +2,15 @@ body {
   background-color: #DEDBD1;
 }
 
+.article-left-container-pc .article-title-image {
+  padding-top: 20px;
+}
+.article-left-container-pc .article-image-11 {
+  margin-top: 20px;
+}
+.article-left-container-pc .interview-catal-design {
+  padding-top: 20px;
+}
 .article-text {
   margin-top: 24.5px;
 }
