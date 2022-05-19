@@ -1,0 +1,27 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 100%;
+}
+
+.article-text {
+  margin-top: 33.5px;
+}
+.article-text-small {
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: -0.26px;
+  margin-top: 14.8px;
+}
+
+.article-left-container-pc .article-title-image {
+  padding-top: 20px;
+}
+.article-left-container-pc .article-profile-text {
+  margin-top: 20px;
+}
+.article-left-container-pc .interview-catal-design {
+  padding-top: 20px;
+}
