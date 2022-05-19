@@ -15,12 +15,13 @@ body {
   letter-spacing: -0.26px;
   margin-top: 14.8px;
 }
-.article-subtitle-text {
-  letter-spacing: -0.34px;
-  line-height: 23px;
-  margin-top: 16.7px;
+
+.article-left-container-pc .article-title-image {
+  padding-top: 20px;
 }
-.article-text-with-subtitle {
-  padding-top: 10.5px;
-  line-height: 28px;
+.article-left-container-pc .article-profile-text {
+  margin-top: 20px;
+}
+.article-left-container-pc .interview-catal-design {
+  padding-top: 20px;
 }
