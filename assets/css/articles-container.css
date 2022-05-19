@@ -102,13 +102,19 @@
   width: 66%;
   top: 9.6%;
 }
-
 .top-article-item-title-arata-kobayashi {
   position: relative;
   width: 69.3%;
   margin-left: 20.7%;
   top: 14.2%;
 }
+.top-article-item-title-ai-tominaga {
+  position: relative;
+  width: 7.2%;
+  margin-left: 79.8%;
+  top: 22.73%;
+}
+
 .top-article-item-title img {
   margin: auto;
 }
