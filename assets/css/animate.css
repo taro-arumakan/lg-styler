@@ -48,6 +48,9 @@
 .reveal_fadein_letter {
   opacity: 0;
 }
+.reveal_fadein_letter.hidden {
+  opacity: 0;
+}
 .reveal_fadein_letter.active {
   opacity: 1;
 }

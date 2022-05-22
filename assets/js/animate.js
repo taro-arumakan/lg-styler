@@ -23,10 +23,8 @@ function hide_profile() {
   var hide_elements = document.querySelectorAll('.hide_past_footer');
   hide_elements.forEach(he => {
     if (document.documentElement.scrollTop > more_element.offsetTop - window.screen.height / 2) {
-      if (![...he.classList].includes('hidden')) {
-        he.classList.remove('active');
-        he.classList.add('hidden');
-      }
+      he.classList.remove('active');
+      he.classList.add('hidden');
     } else {
       he.classList.remove('hidden');
       he.classList.add('active');
