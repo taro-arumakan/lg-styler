@@ -10,6 +10,10 @@ body {
   margin-top: 60.53px;
 }
 
+.article-left-container-pc .article-profile-text {
+  line-height: 23px;
+  font-size: 14px;
+}
 .article-left-container-pc .article-title-image {
   padding-top: 20px;
 }
@@ -21,4 +25,17 @@ body {
 }
 .article-left-container-pc .interview-catal-design {
   padding-top: 20px;
+}
+
+.profile-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.profile-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 50%;
 }
