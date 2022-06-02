@@ -126,7 +126,12 @@
   margin: auto;
   top: 39%;
 }
-
+.top-article-item-title-daisuke-obana {
+  position: relative;
+  width: 79.82%;
+  margin: auto;
+  top: 62.57%;
+}
 .top-article-item-title img {
   margin: auto;
 }
