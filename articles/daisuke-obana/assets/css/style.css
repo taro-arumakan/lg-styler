@@ -1,0 +1,35 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 72.72%;
+}
+
+.article-lead-text-container {
+  margin-top: 60.53px;
+}
+.article-subtitle-text {
+  text-align: center;
+  width: 100%;
+  margin-top: 91.5px;
+}
+.article-image {
+  margin-top: 14.5px;
+}
+.article-text {
+  margin-top: 14.5px;
+}
+
+.article-left-container-pc .article-title-image {
+  padding-top: 20px;
+}
+.article-left-container-pc .article-image-insta {
+  padding-top: 20px;
+}
+.article-left-container-pc .article-profile-text {
+  margin-top: 50px;
+}
+.article-left-container-pc .interview-catal-design {
+  padding-top: 20px;
+}
