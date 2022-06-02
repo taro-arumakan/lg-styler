@@ -1,0 +1,18 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 100%;
+}
+
+.article-lead-text-container {
+  margin-top: 60.53px;
+}
+
+.article-text {
+ margin-top: 14.5px;
+}
+.article-image {
+  margin-top: 14.5px;
+}
