@@ -269,11 +269,16 @@ iframe {
   }
   .article-left-container-pc {
     position: fixed;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;    /* Firefox */
     height: calc(100vh - 100px);
     width: 40%;
     max-width: 485px;
     text-align: center;
+  }
+  .article-left-container-pc::-webkit-scrollbar { 
+      display: none;          /* Safari and Chrome */
   }
   .article-container {
     margin-right: 0;
