@@ -269,7 +269,8 @@ iframe {
   }
   .article-left-container-pc {
     position: fixed;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     height: calc(100vh - 100px);
     width: 40%;
     max-width: 485px;
