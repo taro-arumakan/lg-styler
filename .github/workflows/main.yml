@@ -15,5 +15,5 @@ jobs:
         server: ftp.lolipop.jp
         username: main.jp-catal
         password: ${{ secrets.ftp_password }}
-        server-dir: web/lg_bondi/
+        server-dir: web/lg/
         dry-run: false
