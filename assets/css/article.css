@@ -277,7 +277,7 @@ iframe {
     max-width: 485px;
     text-align: center;
   }
-  .article-left-container-pc::-webkit-scrollbar { 
+  .article-left-container-pc::-webkit-scrollbar {
       display: none;          /* Safari and Chrome */
   }
   .article-container {
