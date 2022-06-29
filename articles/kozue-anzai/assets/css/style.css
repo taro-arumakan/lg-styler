@@ -1,0 +1,28 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 100%;
+}
+
+.article-lead-text-container {
+  margin-top: 60.53px;
+}
+
+.article-text {
+ margin-top: 14.64px;
+}
+.article-image {
+  margin-top: 100px;
+}
+.article-image-after-text {
+  margin-top: 94.5px;
+}
+.article-image-after-image {
+  margin-top: 20.06px;
+}
+.article-profile-url {
+  width: 100%;
+  font-family: "Optima", sans-serif;
+}
