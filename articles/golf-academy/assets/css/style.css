@@ -1,0 +1,50 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 100%;
+}
+
+.article-image {
+  margin-top: 14.5px;
+}
+
+.article-text {
+  margin-top: 14.5px;
+}
+
+.article-profile-container {
+  margin-top: 100px;
+}
+
+.article-image-insta,.article-logo-image,.article-text-youtube {
+  margin-top: 50px;
+}
+
+.article-text-youtube {
+  font-weight: bold;
+  font-size: large;  
+}
+
+.profile-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.profile-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 50%;
+}
+
+@media (min-width: 768px) {
+ .article-title-image {
+    padding-top: 0px;
+ }
+ .article-profile-text {
+    width: 90%;
+ }
+}
