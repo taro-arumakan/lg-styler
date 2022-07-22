@@ -1,0 +1,33 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 100%;
+}
+
+.article-image {
+  margin-top: 14.5px;
+}
+
+.article-text {
+  margin-top: 14.5px;
+}
+
+.article-text-subtitle {
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0pt;
+}
+.article-profile-container {
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+ .article-title-image {
+    padding-top: 0px;
+ }
+
+}
