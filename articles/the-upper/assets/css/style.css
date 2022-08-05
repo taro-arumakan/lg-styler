@@ -1,0 +1,25 @@
+body {
+  background-color: #DEDBD1;
+}
+
+.article-title-image img {
+  width: 100%;
+}
+
+.article-image {
+  margin-top: 14.5px;
+}
+
+.article-text {
+  margin-top: 14.5px;
+}
+
+.article-profile-container {
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+ .article-profile-text {
+    width: 85%;
+ }
+}
